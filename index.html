@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quanta Solar | Cotizador de sistemas solares</title>
+<meta name="description" content="Quanta Solar convierte el consumo de un cliente en una propuesta solar clara: equipos reales, inversión, ahorro estimado y periodo de recuperación.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{--night:#1B1236;--coral:#FF7A59;--mint:#5EEAD4;--violet:#7A4DE0;--magenta:#E04BA0;--cream:#FFF6EF;--muted:#4F4560;--soft:#D9D0F5}
+*{box-sizing:border-box}
+body{margin:0;font-family:'DM Sans',system-ui,sans-serif;color:var(--night);background:var(--cream);line-height:1.6;font-size:17px}
+h1,h2,h3{font-family:'Sora',system-ui,sans-serif;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+:focus-visible{outline:3px solid var(--violet);outline-offset:3px}
+.dark :focus-visible{outline-color:var(--mint)}
+.dark{background:var(--night);color:var(--cream)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.brand b{font:800 22px/1 'Sora',sans-serif;letter-spacing:.02em;display:block}
+.brand small{font:600 10px/1 'Sora',sans-serif;letter-spacing:.5em;color:var(--coral);display:block;margin-top:5px}
+nav{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+nav a{color:var(--soft);text-decoration:none;font-size:15px}
+nav a:hover{color:var(--cream)}
+.btn{display:inline-block;background:var(--coral);color:var(--night);font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none}
+.btn:hover{background:#FF9478}
+nav .btn{color:var(--night);padding:9px 18px;font-size:15px}
+.spec{height:6px;background:linear-gradient(90deg,#7A4DE0,#E04BA0,#FF7A59,#FFC2A1)}
+.hero{padding:48px 0 96px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+h1{font-weight:800;font-size:clamp(40px,6vw,74px);line-height:1.04;margin-bottom:22px}
+.hero p{font-size:20px;color:var(--soft);max-width:34em;margin:0}
+.acts{display:flex;gap:22px;align-items:center;flex-wrap:wrap;margin-top:30px}
+.acts a.t{color:var(--cream)}
+.hero figure{margin:0;text-align:center}
+.hero figcaption{font-size:14px;color:var(--soft);margin-top:14px;max-width:26em;margin-inline:auto}
+section{padding:88px 0}
+h2{font-weight:800;font-size:clamp(28px,4vw,40px);line-height:1.15;margin-bottom:12px}
+.lead{color:var(--muted);max-width:40em;margin:0}
+.steps{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+.steps li{border-top:4px solid var(--coral);padding-top:14px;counter-increment:s}
+.steps li::before{content:counter(s);display:block;font:800 36px/1.2 'Sora',sans-serif;color:var(--violet)}
+.steps li:nth-child(1){border-color:#7A4DE0}.steps li:nth-child(2){border-color:#E04BA0}.steps li:nth-child(3){border-color:#FF7A59}.steps li:nth-child(4){border-color:#5EEAD4}
+.steps h3{font-size:19px;margin:4px 0 8px}
+.steps p{margin:0;color:var(--muted);font-size:16px}
+.visual{background:#fff}
+.visual figure{margin:36px 0 0}
+.visual img{width:100%;height:auto;display:block;border-radius:18px}
+.visual figcaption{margin-top:16px;font-size:16px;color:var(--muted);max-width:62ch;border-left:4px solid var(--magenta);padding-left:14px}
+.cta p{color:var(--soft);max-width:36em;margin:0 0 26px}
+footer{padding:28px 0;font-size:14px;color:var(--soft);background:#10092A}
+footer p{margin:0;max-width:70ch}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.hero figure{order:-1}.hero figure svg{width:200px;height:200px}section{padding:64px 0}.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="qs" viewBox="0 0 120 120"><g stroke="#FF7A59" stroke-width="5" stroke-linecap="round"><path d="M60 12V3M26 26l-7-7M94 26l7-7M12 60H3M108 60h9"/></g><circle cx="60" cy="60" r="34" fill="none" stroke="#FF7A59" stroke-width="12"/><g fill="#FFF6EF"><rect x="44" y="44" width="14" height="14" rx="3"/><rect x="62" y="44" width="14" height="14" rx="3"/><rect x="44" y="62" width="14" height="14" rx="3"/><rect x="62" y="62" width="14" height="14" rx="3"/></g><path d="M80 80L110 110" stroke="#5EEAD4" stroke-width="12" stroke-linecap="round"/></symbol></svg>
+
+<header class="dark">
+<div class="wrap bar">
+<a class="brand" href="#inicio" aria-label="Quanta Solar, inicio"><svg width="48" height="48" viewBox="0 0 120 120" aria-hidden="true"><use href="#qs"/></svg><span><b>QUANTA</b><small>SOLAR</small></span></a>
+<nav aria-label="Principal"><a href="#como">Cómo funciona</a><a href="#imagen">Proyecto</a><a class="btn" href="#cotizador">Abrir cotizador</a></nav>
+</div>
+</header>
+<div class="spec" aria-hidden="true"></div>
+
+<main id="inicio">
+<div class="hero dark">
+<div class="wrap">
+<div>
+<h1>Cuánta energía. Cuánto ahorro.</h1>
+<p>Quanta Solar convierte el consumo de un cliente en una propuesta técnica y económica clara: paneles, inversores y baterías reales, inversión, ahorro estimado y periodo de recuperación.</p>
+<div class="acts"><a class="btn" href="#cotizador">Abrir cotizador</a><a class="t" href="#como">Ver cómo funciona</a></div>
+</div>
+<figure>
+<svg width="300" height="300" viewBox="0 0 120 120" role="img" aria-label="Logo de Quanta Solar: una Q formada por un sol, celdas de panel y un rayo menta"><use href="#qs"/></svg>
+<figcaption>La Q es un sol: el anillo es el disco solar, dentro hay celdas de panel y la cola es un rayo menta que lleva el ahorro al cliente.</figcaption>
+</figure>
+</div>
+</div>
+
+<section id="como">
+<div class="wrap">
+<h2>De los recibos a una propuesta de venta</h2>
+<p class="lead">Un vendedor completa el cotizador en cuatro pasos y obtiene un reporte listo para presentar.</p>
+<ol class="steps">
+<li><h3>Registra el consumo</h3><p>Captura cuánta electricidad usa el cliente para dimensionar el sistema.</p></li>
+<li><h3>Elige equipos reales</h3><p>Selecciona paneles, inversores y baterías que existen en el mercado.</p></li>
+<li><h3>Consulta precios</h3><p>Cada componente trae su costo para armar la inversión total.</p></li>
+<li><h3>Presenta el reporte</h3><p>Inversión, ahorro estimado y periodo de recuperación explicados con claridad.</p></li>
+</ol>
+</div>
+</section>
+
+<section id="imagen" class="visual">
+<div class="wrap">
+<h2>Energía solar que se ve y se entiende</h2>
+<figure>
+<img src="assets/ilustracion-lampara-solar.svg" width="800" height="520" alt="Ilustración de un panel solar al atardecer conectado con un cable menta a una lámpara hecha con una botella reutilizada que brilla con luz cálida">
+<figcaption>Lámpara fotovoltaica con material reciclado: el panel carga durante el día y una botella reutilizada ilumina por la noche. Ilustración conceptual del proyecto.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="cotizador" class="dark cta">
+<div class="wrap">
+<h2>Haz tu primera cotización</h2>
+<p>Registra un consumo, elige los equipos y descarga una propuesta que ayude a cerrar la venta.</p>
+<!-- Cambia href="#cotizador" por el enlace real de tu cotizador -->
+<a class="btn" href="#cotizador">Abrir cotizador</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap"><p>Quanta Solar es el cotizador de un proyecto académico de TE1020 Análisis de circuitos eléctricos. Photon Labs S.A. de C.V. es una empresa simulada y no representa una oferta comercial real.</p></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Panel solar conectado a una lámpara de botella reutilizada al atardecer">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B1236"/><stop offset=".3" stop-color="#4A2C9E"/><stop offset=".5" stop-color="#7A4DE0"/><stop offset=".62" stop-color="#E04BA0"/><stop offset=".72" stop-color="#FF7A59"/><stop offset=".8" stop-color="#FFC2A1"/></linearGradient>
+<linearGradient id="pn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B1236"/><stop offset="1" stop-color="#7A4DE0"/></linearGradient>
+<linearGradient id="bt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFC2A1"/><stop offset=".5" stop-color="#FFF1E4"/><stop offset="1" stop-color="#FFC2A1"/></linearGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#FFD9B8" stop-opacity=".9"/><stop offset="1" stop-color="#FFD9B8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="520" fill="url(#sky)"/>
+<g fill="#FFF6EF" opacity=".85"><circle cx="90" cy="60" r="2"/><circle cx="180" cy="110" r="1.5"/><circle cx="300" cy="48" r="2"/><circle cx="420" cy="92" r="1.5"/><circle cx="520" cy="40" r="2"/><circle cx="700" cy="70" r="2"/><circle cx="60" cy="170" r="1.5"/><circle cx="250" cy="150" r="1.5"/><circle cx="640" cy="140" r="1.5"/></g>
+<circle cx="560" cy="350" r="165" fill="#FFC2A1" opacity=".18"/>
+<circle cx="560" cy="350" r="120" fill="#FFC2A1" opacity=".25"/>
+<circle cx="560" cy="350" r="88" fill="#FFE0C8"/>
+<path d="M0 365C150 325 280 355 420 340S700 325 800 355V520H0Z" fill="#3A2080"/>
+<path d="M0 425C200 395 360 435 520 415S720 405 800 425V520H0Z" fill="#261457"/>
+<rect y="458" width="800" height="62" fill="#140C2E"/>
+<g fill="#FFF6EF"><circle cx="472" cy="322" r="4.5" opacity=".95"/><circle cx="446" cy="312" r="3.8" opacity=".85"/><circle cx="422" cy="306" r="3.2" opacity=".75"/><circle cx="402" cy="304" r="2.6" opacity=".65"/></g>
+<path d="M250 378V470" stroke="#D9D0F5" stroke-width="9" stroke-linecap="round"/>
+<path d="M215 472H285" stroke="#D9D0F5" stroke-width="9" stroke-linecap="round"/>
+<polygon points="90,300 335,262 400,354 130,402" fill="url(#pn)" stroke="#FFF6EF" stroke-width="4" stroke-linejoin="round"/>
+<g stroke="#FFF6EF" stroke-width="2.5" opacity=".9"><path d="M172 293L210 380M254 281L290 367M110 351L367 308"/></g>
+<polygon points="95,303 200,286 160,396 132,400" fill="#fff" opacity=".18"/>
+<path d="M250 472C330 508 500 508 600 472" fill="none" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round"/>
+<g fill="#5EEAD4"><circle cx="330" cy="494" r="5"/><circle cx="430" cy="500" r="5"/><circle cx="520" cy="494" r="5"/></g>
+<circle cx="620" cy="400" r="145" fill="url(#gl)"/>
+<ellipse cx="620" cy="473" rx="46" ry="8" fill="#000" opacity=".3"/>
+<rect x="585" y="335" width="70" height="136" rx="30" fill="url(#bt)"/>
+<rect x="608" y="295" width="24" height="46" rx="6" fill="url(#bt)"/>
+<rect x="603" y="284" width="34" height="14" rx="5" fill="#5EEAD4"/>
+<circle cx="620" cy="405" r="22" fill="#FFF8F0"/>
+<rect x="594" y="352" width="8" height="92" rx="4" fill="#fff" opacity=".45"/>
+<g fill="#FFF1E4"><path d="M545 322l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path d="M702 346l2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5z"/><path d="M672 266l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><circle cx="530" cy="405" r="2"/><circle cx="690" cy="300" r="2"/></g>
+<circle cx="715" cy="438" r="30" fill="#5EEAD4"/>
+<g fill="none" stroke="#1B1236" stroke-width="4" stroke-linecap="round"><path d="M703 438a12 12 0 0 1 20-9"/><path d="M727 438a12 12 0 0 1-20 9"/></g>
+<g fill="#1B1236"><polygon points="725,423 725,435 715,431"/><polygon points="705,453 705,441 715,445"/></g>
+</svg>
